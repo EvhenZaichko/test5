@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <img src="img/formula-icon.jpg" alt="logo" class="logo-img">
+    </a>
+    <ul class="nav-links">
+      <li>ІНФО</li>
+      <li><a href="map.html">КАРТА</a></li>
+      <li><a href="info.html">ПРО НАС</a></li>
+      <li><a href="calendar.html">КАЛЕНДАР</a></li>
+      <li><a href="calendar.html">КАБІНЕТ</a></li>
+    </ul>
+
+    <div class="button-container">
+      <a href="sub.html" class="sub-button">ПІДПИСАТИСЬ</a>
+      <button class="sub-sign-in">РЕЄСТРАЦІЯ</button>
+      <button class="sub-login" id="login-btn">УВІЙТИ</button>
+
+    </div>
+  </nav>
+</header>
+<main class="main-content">
+  
+
+  <div class="form-container">
+    <div class="form-box login active">
+      <h2>Login</h2>
+      <div class="close-icon">
+        <span id="close"></span>
+        <span id="close1"></span>
+      </div>
+      <form action="#">
+        <div class="input-box">
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <button type="submit" class="sub-login">LOGIN</button>
+        <div class="form-footer">
+          Немає аккаунта? <a href="#" class="toggle-form">Зареєструватися</a>
+        </div>
+      </form>
+    </div>
+
+
+    <div class="form-box register">
+      <h2>Register</h2>
+      <div class="close-icon">
+        <span id="close2"></span>
+        <span id="close3"></span>
+      </div>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <button type="submit" class="sub-login">REGISTER</button>
+        <div class="form-footer">
+          Вже є аккаунт? <a href="#" class="toggle-form">Увійти</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+
+
+<script src="index.js"></script>
+
+
+
+</body>
+</html>
+
